@@ -8,26 +8,31 @@ import {
 import App from './App';
 import Login from './Component/Login';
 import Signup from './Component/Signup';
+import Home from './Component/Home';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>
   },
-      {
-        path:"/login",
-        element:<Login></Login>
-      },
-      {
-        path:"/signup",
-        element:<Signup></Signup>
-      },
-    
-  
+  {
+    path: '/home',
+    element: <Home></Home>
+  },
+  {
+    path: "/login",
+    element: <Login></Login>
+  },
+  {
+    path: "/signup",
+    element: <Signup></Signup>
+  },
+
+
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
