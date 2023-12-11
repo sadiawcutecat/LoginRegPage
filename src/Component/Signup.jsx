@@ -29,7 +29,7 @@ const Signup = () => {
 
     return (
 
-        <div className="hero min-h-screen " style={{ backgroundImage: `url("/src/assets/image/gradient-connection-background_52683-116652.jpg")` }}>
+        <div className="hero min-h-screen " style={{ backgroundImage: `url("https://i.ibb.co/fqVvzgz/login1.jpg")` }}>
             {/* <div className="hero-overlay bg-opacity-60"></div> */}
             <div className="hero-content text-center ">
                 <div className="max-w-md">
